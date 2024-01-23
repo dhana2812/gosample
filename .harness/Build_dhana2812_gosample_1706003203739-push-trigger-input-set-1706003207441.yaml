@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dhana2812_gosample_1706003203739-push-trigger-input-set
+  identifier: Build_dhana2812_gosample_1706003203739pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_dhana2812_gosample_1706003203739
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
