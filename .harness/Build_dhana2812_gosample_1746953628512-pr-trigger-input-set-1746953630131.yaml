@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dhana2812_gosample_1746953628512-pr-trigger-input-set
+  identifier: Build_dhana2812_gosample_1746953628512prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: Build_dhana2812_gosample_1746953628512
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
